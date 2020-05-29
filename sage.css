@@ -1,0 +1,530 @@
+@media only screen and (min-width:545px){
+/*          my set up */
+            aside, article, section, header, footer, nav {
+                display: block;
+            }
+            html, body ,h1{
+                margin: 0;
+                padding: 0;
+            }
+            option{
+                background: white; 
+            }
+            .clearfix:after{
+                content:'';
+                display: table;
+                clear:both;
+            }
+            
+/*---------------------------------------------------------------------------------------------------------------------------          nav bar styling*/
+            
+            nav{
+                padding: 0 15%;
+                border-bottom: 1px solid lightslategray;
+                height: 72px;
+                overflow: hidden;
+                
+            }
+            nav h1{
+                float: left;
+                margin: 0 auto;
+            }
+            nav ul{
+/*                display: none;*/
+                float: left;
+                height: 73px;
+                margin: 0;
+                overflow: hidden;
+            }
+            nav li{
+                float: left;
+                margin: 0 10px;
+                padding: 26px 0px;
+            }
+            li.activ{
+                border-bottom: 3px solid #F63D3B;
+                color: #F63D3B;             
+            }
+            nav a{
+                text-decoration-line: none;
+                color: lightslategray;
+            }
+            
+            nav a:hover{
+                color: #F63D3B;
+            }
+            .activ a{
+                color: #F63D3B;
+            }
+            
+            nav form{
+                float:right;
+                padding:24px 0px;
+            }
+            nav select{
+                border: none;
+                color: lightslategray;       
+            }
+            nav input{
+                width: 16px;
+                height: 16px;
+                border: none;
+                padding: 0;
+                background-image: url('magnifying-glass.png');
+                background-position: 0px 0px; 
+                background-repeat: no-repeat;
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+            }
+
+            nav input:focus {
+                width: 55%;
+                background-image: none;
+            }
+/*---------------------------------------------------------------------------------------------------------------------------        layout header styling*/
+            .container{
+                background-color: white;
+                margin:0 15%;
+                
+            }
+            .container h2{
+                float: left
+            }
+            .container form{
+                float: right;
+                margin: 19.920px 0px;
+            }
+            .container select{
+                background-color: #F63D3B;
+                border: none;
+                padding: 5px;
+            }
+/*---------------------------------------------------------------------------------------------------------------------------        layout styling*/
+            .layout{
+                margin:0px 15%;
+            }
+            .divl12{
+                width: 32%;
+                margin-right: 1%;
+            }
+            .divr12{
+                width: 32%;
+                margin-left: 1%;
+                
+            }
+            .divl22{
+                width: 66%;
+                margin-right: 1%;
+            }
+            .divr22{
+                width: 66%;
+                margin-left: 1%;
+            }
+            .divl3{
+                width: 32%;
+                margin-right: 1%;
+            }
+            .divc3{
+                width: 32%;
+                margin-right: 1%;
+                margin-left: 1%;
+            }
+            .divr3{
+                width: 32%;
+                margin-left: 1%;
+            }
+            a div{
+                background-color: #372C30;
+                color: #372C30;
+                height: 200px;
+                float: left;
+                margin-bottom:30px;
+                text-align: center;
+                font-weight: 700;
+                font-size: 2em;
+                    
+            }
+            a div:hover{
+                background: #F63D3B;
+                color:white;     
+            }
+            #centeredlink{
+                display: block;
+                color: #F63D3B;
+                text-decoration-line: none;
+                font-weight: bold;
+                display: block;
+                text-align: center;
+                border-bottom: 3px solid red;
+                margin: 0 39.6246%;
+                clear: both;
+            }
+            
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+            .darksec{
+                padding:100px 15%;
+                background-color: #372C30;
+                text-align: center;
+                color: white;
+                
+            }
+            .darksec h1{
+                width: 100%;
+                text-align: center;
+                color: white;
+                font-size: 2em;
+            }
+            figcaption {
+                text-align: center;
+            }
+            .redsec{
+                padding:50px 15%;
+                background-color: #F63D3B;
+                text-align: center;
+                color: white;
+            }
+            .redsec article{
+                padding-bottom:50px;
+            }
+            .redsec button{
+                background-color: #F63D3B;
+                border: 1px solid antiquewhite ;
+                color: white;
+                padding: 10px .741289844%;
+                    
+            }
+            .float{
+                float: left;
+                margin: auto;
+                width: 33.33333333333333%;
+            }
+            
+            figcaption p{
+                font-size: 2em;
+                margin: 0;
+            }
+/*----------------------------------------------------------------------------------------------------------------------------*/
+            #talk input {
+                background-color: #372C30;
+                color: white;
+                border:1px solid lightslategray;
+                width:27%;
+                padding:10px 2%;
+                margin-bottom: 20px;
+                
+                
+            }
+            #talk input[name="username"] {
+                float: left;
+                
+            }
+            #talk input[name="phone"] {
+                float: right;
+                
+                
+            }
+            #talk textarea{
+                background-color: #372C30;
+                color: white;
+                border: 1px solid lightslategray;
+                width: 95.8%;
+                padding: 2px 2%;
+                height: 200px;
+                resize: none;
+                margin-bottom: 20px;
+                
+            }
+            #talk select{
+                border: none;
+                background-color: #F63D3B;
+                padding: 10px 10px;
+                color: white;
+                margin: 30px 0;
+                
+            }
+            #talk input[type=submit]{
+                float: none;
+                width: 140px;
+                background-color: white;
+                color: lightslategray;
+            }
+            
+            
+            
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+            footer{
+                background-color: #372C30;
+            }
+            div.loc{
+                background-color: #F63D3B;
+                width:30%;
+                padding: 1% 1%;
+                margin: 0 34% 40px;
+                color: white;
+                text-align: center;
+                                
+            }
+            .footerdata{
+                color: lightslategray;
+                height: 30px;
+                padding: 20px 14.418% 0;
+                
+            }
+            .right{
+                width:50px;
+                float: right;
+                font-size: .5em;
+                padding:0 1.5%;
+            }
+            .left{
+                float: left;
+                font-size: .5em;
+            }
+            }
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+            @media only screen and (max-width:545px) {
+/*          my set up */
+            aside, article, section, header, footer, nav {
+                display: block;
+            }
+            html, body ,h1{
+                margin: 0;
+                padding: 0;
+            }
+            option{
+                background: white; 
+            }
+            .clearfix:after{
+                content:'';
+                display: table;
+                clear:both;
+            }
+            
+/*---------------------------------------------------------------------------------------------------------------------------          nav bar styling*/
+            
+            nav{
+                padding: 0 15%;
+                border-bottom: 1px solid lightslategray;
+                height: 72px;
+                overflow: hidden;
+                
+            }
+            nav h1{
+                float: left;
+                margin: 0 auto;
+            }
+            nav ul{
+/*                display: none;*/
+                float: left;
+                height: 71px;
+                margin: 0;
+            }
+            nav li{
+                float: left;
+                margin: 0 10px;
+                padding: 24px 0px;
+            }
+            li.activ{
+                border-bottom: 3px solid #F63D3B;
+                color: #F63D3B;              
+            }
+            nav a{
+                text-decoration-line: none;
+                color: lightslategray;
+            }
+            
+            nav a:hover{
+                color: #F63D3B;
+            }
+            .activ a{
+                color: #F63D3B;
+            }
+            
+            nav form{
+                float:right;
+                padding:24px 0px;
+            }
+            nav select{
+                border: none;
+                color: lightslategray;       
+            }
+            nav input{
+                width: 16px;
+                height: 16px;
+                border: none;
+                padding: 0;
+                background-image: url('magnifying-glass.png');
+                background-position: 0px 0px; 
+                background-repeat: no-repeat;
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: width 0.4s ease-in-out;
+            }
+ 
+            nav input:focus {
+                width: 55%;
+                background-image: none;
+            }
+/*---------------------------------------------------------------------------------------------------------------------------        layout header styling*/
+            .container{
+                
+                margin:0 15%;
+                
+            }
+            
+            .container form{
+                
+                margin: 19.920px 0px;
+            }
+            .container select{
+                background-color: #F63D3B;
+                border: none;
+                padding: 5px;
+            }
+/*---------------------------------------------------------------------------------------------------------------------------        layout styling*/
+            .layout{
+                margin:0px 15%;
+            }
+            
+            a div{
+                width: 100%;
+                background-color: #372C30;
+                color: #372C30;
+                height: 200px;
+                float: left;
+                margin-bottom:30px;
+                text-align: center;
+                font-weight: 700;
+                font-size: 2em;
+                    
+            }
+            a div:hover{
+            
+                background: #F63D3B;
+                color:white;     
+            }
+            #centeredlink{
+                display: block;
+                color: #F63D3B;
+                text-decoration-line: none;
+                font-weight: bold;
+                text-align: center;
+                border-bottom: 3px solid red;
+                margin: 0 39.6246%;
+                clear: both;
+            }
+            
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+            .darksec{
+                padding:100px 15%;
+                background-color: #372C30;
+                text-align: center;
+                color: white;
+                
+            }
+            .darksec h1{
+                width: 100%;
+                text-align: center;
+                color: white;
+                font-size: 2em;
+            }
+            figcaption {
+                text-align: center;
+            }
+            .redsec{
+                padding:50px 15%;
+                background-color: #F63D3B;
+                text-align: center;
+                color: white;
+            }
+            .redsec article{
+                padding-bottom:50px;
+            }
+            .redsec button{
+                background-color: #F63D3B;
+                border: 1px solid antiquewhite ;
+                color: white;
+                padding: 10px .741289844%;
+                    
+            }
+            .float{
+                
+                margin: 40px auto;
+                width: 100%;
+            }
+            
+            figcaption p{
+                font-size: 2em;
+                margin: 0;
+            }
+/*----------------------------------------------------------------------------------------------------------------------------*/
+            #talk input {
+                background-color: #372C30;
+                color: white;
+                border:1px solid lightslategray;
+                width: 95.63302752293578%;
+                padding: 10px 2%;
+                margin:10px 0px;
+                
+                
+                
+            }
+            #talk input[type=email] {
+                margin: 0px;
+            }
+            #talk textarea{
+                background-color: #372C30;
+                color: white;
+                border: 1px solid lightslategray;
+                width: 95.63302752293578%;
+                padding: 2px 2%;
+                height: 200px;
+                resize: none;
+                
+            }
+            #talk select{
+                border: none;
+                background-color: #F63D3B;
+                padding: 10px 10px;
+                color: white;
+                margin: 30px 0;
+                
+            }
+            #talk input[type=submit]{
+                width: 140px;
+                background-color: white;
+                color: lightslategray;
+            }
+            
+            
+            
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+            footer{
+                background-color: #372C30;
+            }
+            div.loc{
+                background-color: #F63D3B;
+                width:30%;
+                padding: 1% 1%;
+                margin: 0 34% 40px;
+                color: white;
+                text-align: center;
+                                
+            }
+            .footerdata{
+                color: lightslategray;
+                height: 30px;
+                padding: 20px 14.418% 0;
+                
+            }
+            .right{
+                width:50px;
+                float: right;
+                font-size: .5em;
+                padding:0 1.5%;
+            }
+            .left{
+                float: left;
+                font-size: .5em;
+            }
+            }
+            
